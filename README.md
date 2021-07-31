@@ -1,6 +1,6 @@
 # 웃픈갤러리
 ## 프로젝트 소개
-- 오픈갤러리 사이트 클론 프로젝트
+- 오픈갤러리 사이트의 주요 기능들을 구현한 프로젝트
 - 약 2주 간의 짧은 프로젝트 기간으로 인해 필수 기능과 빠른 시일 내에 구현 가능한 기능에 초점을 맞췄습니다.
 - 개발은 초기 세팅부터 전부 직접 구현했으며, 아래 데모 영상에서 보이는 부분은 모두 프론트엔드와 백엔드가 연결하여 실제 사용할 수 있는 서비스 수준으로 개발한 것입니다.
 ### 개발 인원 및 기간
@@ -14,14 +14,15 @@
 ## 적용 기술 및 구현 기능
 ### 적용 기술
 - Front-End : React, Styled-Component
-- Back-End : Python, Django, MySQL, Bcrypt, pyJWT, Docker, s3
-- Common : AWS(EC2,RDS), RESTful API
+- Back-End : Python, Django, MySQL, Bcrypt, pyJWT, Docker, AWS s3
+- Common : AWS(EC2, RDS), RESTful API
 ### 협업 도구
-Slack / Git + GitHub / Trello, Notion를 이용해 일정관리, 현황을 관리하였습니다.
+Slack / Git + GitHub / Notion를 이용해 일정관리, 현황을 관리하고 에자일하게 작업하였습니다.
 ### Front-End 구현 기능
 *<이종민>*
 - 로그인 (카카오 소셜 로그인)
 - 상세페이지 (페이지 내부 색 변경, 리뷰 업로드, 슬라이드 기능)
+ 
 *<이재현>*
 - 메인페이지 (슬라이드 기능)
 - 리스트페이지 (Masonry 레이아웃 ,필터링, 페이지네이션 등)
@@ -35,8 +36,9 @@ Slack / Git + GitHub / Trello, Notion를 이용해 일정관리, 현황을 관�
 - S3 Storage 활용 (리뷰 이미지 업로드 등)
  
 *<김예랑>*
-- 소셜 로그인기능 구현(카카오 API 활용)
-- 장바구니 기능 구현
+- 소셜 로그인 기능 구현 (카카오 API 활용)
+- 장바구니 기능 구현 및 쿼리 최적화
+- Docker, AWS(EC2, RDS)를 활용한 배포
 <br>
 ## Reference
 - 이 프로젝트는 [오픈갤러리](https://www.opengallery.co.kr/) 사이트를 참조하여 학습목적으로 만들었습니다.
